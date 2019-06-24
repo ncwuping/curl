@@ -23,7 +23,7 @@ RUN yum update -y \
                    libpsl-devel \
                    libssh2-devel \
                    perl-IO-Compress \
-                   perl-Digest \
+                   perl-Digest-MD5 \
  \
  && rpm -i http://www.city-fan.org/ftp/contrib/yum-repo/rhel7/source/curl-7.65.1-1.0.cf.rhel7.src.rpm \
  && cd /root/rpmbuild/SPECS \
